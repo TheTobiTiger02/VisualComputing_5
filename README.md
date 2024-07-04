@@ -1,7 +1,7 @@
 # Welche Farbräume sind für den Algorithmus geeignet, welche nicht?
 
 ### Lab-Farbraum
-Trennt Helligkeit von den Farbkomponentet, was bedeutet, dass Änderungen an der Farbgebung weniger Einfluss auf die Helligkeit haben und umgekehrt, was oft zu natürlichen Ergebnissen bei der Farbtransformation führt. 
+Trennt Helligkeit von den Farbkomponenten, was bedeutet, dass Änderungen an der Farbgebung weniger Einfluss auf die Helligkeit haben und umgekehrt, was oft zu natürlichen Ergebnissen bei der Farbtransformation führt. 
 
 ### HSV-Farbraum
 Trennt Farbbon, Sättigung und Helligkeit, wodurch Farbtonveränderungen ohne Beeinflussung der Helligkeit möglich sind.
