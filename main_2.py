@@ -11,7 +11,6 @@ print("Image height: " + str(img.shape[0]))
 print("Image channels: " + str(img.shape[2]))
 
 # Bilddatenformat auf float setzen
-img = img.astype(np.uint8)
 img2 = img2.astype(np.float32)
 
 
@@ -23,12 +22,9 @@ for i in range(0, img.shape[0], 5):
     img[i] = [0, 0, 0]
     
 # Save the image
-
 cv2.imwrite("yoshi_modified.png", img)
 
-
-
-
+# Display the image
 cv2.imshow("uint8", img)
 cv2.imshow("float32", img2)
 cv2.waitKey(0)
